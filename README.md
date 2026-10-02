@@ -1,0 +1,7 @@
+# Adaptive Cleft Lip Reconstruction via Deep Learning-Driven Style Transfer and Image Inpainting
+
+📄 [Read the full dissertation](final_dissertation_paper.pdf)
+
+## Abstract
+
+Cleft lip is a congenital condition identified by a split in the upper lip, often associated with a cleft palate. Surgical interventions are usually done to achieve a functional and aesthetic restoration. Being able to foresee surgical results remains difficult, often requiring multiple treatments. In this project, we aim to predict post-surgical facial reconstruction outcomes for cleft lip patients through a generative image inpainting model. We create a synthetic infant dataset by applying style transfer on the CelebA-HQ dataset. This was then used to train the PUT transformer model for our facial image inpainting task. The outcome was a dataset of 30,000 synthetic infant images with an FID score of 70.24 against a children's dataset. These images did not directly represent any real infants, therefore bypassing ethical and privacy concerns. The image inpainting model achieves an LPIPS score of 0.1057 on cleft lip reconstruction tasks, producing visually plausible post-surgical predictions. Together, these contributions show that synthetic data generation combined with domain-adapted inpainting offers a usable, ethically motivated approach to cleft lip surgical outcome prediction.
